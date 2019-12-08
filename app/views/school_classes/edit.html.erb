@@ -1,0 +1,15 @@
+
+    </head>
+<body>
+    <div>
+        <%= form_for @school_class do |f| %> 
+        <h1></h1>
+        <h1><%= f.label 'title' %></h1>
+        <h1><%= f.text_field :title %></h1><br>
+        <h1><%= f.label 'room_number' %></h1>
+        <h1><%= f.number_field :room_number %></h1>
+        <%= f.submit 'Update School class' %>
+        <% end %>
+    </div>
+</body>
+</html>
